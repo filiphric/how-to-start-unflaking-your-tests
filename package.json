@@ -1,0 +1,16 @@
+{
+  "name": "how-to-start-unflaking-your-tests",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@iconify-json/bx": "^1.1.10",
+    "@slidev/cli": "^0.49.4",
+    "slidev-theme-excali-slide": "^1.1.0",
+    "vue": "^3.4.27"
+  }
+}
