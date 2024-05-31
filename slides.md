@@ -16,13 +16,6 @@ themeConfig:
 &nbsp;
 # unf**king your tests
 
-<!--
-- I teach developers about testing and testers about web development
-- this is a family-friendly presentation
-- I work at dev relations for company called replay where we build time travelling browser
-- before we start, I want to do a short poll, but I’ll do it a littlebit differently
--->
-
 <style>
   p {
     font-size: 1px;
@@ -31,6 +24,13 @@ themeConfig:
     line-height: 0px !important;
   }
 </style>
+
+<!--
+- I teach developers about testing and testers about web development
+- this is a family-friendly presentation
+- I work at dev relations for company called replay where we build time travelling browser
+- before we start, I want to do a short poll, but I’ll do it a littlebit differently
+-->
 
 ---
 src: pages/00_prompts.md

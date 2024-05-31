@@ -3,7 +3,7 @@
     <div class="abs-br m-2 flex w-full justify-between">
       <div class="flex-place-self-center">
         <a class="opacity-30 ml-6 text-sm" href="https://filiphric.com/jsheroes">
-          <bx-slideshow class="mr-1"/> filiphric.com/devtalks
+          <bx-slideshow class="mr-1"/> filiphric.com/jsheroes
         </a>
       </div>
       <div>

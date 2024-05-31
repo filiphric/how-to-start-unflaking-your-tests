@@ -26,6 +26,7 @@ it('Checks accessibility of a page', () => {
 ```
 
 <!-- 
+- accessibility - Daniel Rizea mentioned this in the morning
 - show code, then go to demo
 -->
 

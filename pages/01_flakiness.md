@@ -25,7 +25,8 @@ layout: default
 <!--
 - but let’s stop at this little guy
 - because as I said, we have some great tools nowadays
-- but they all seem to be battling for speed of execution
+- but they all seem to focusing on one problem
+- speed of execution
 - I have read countless blog posts comparing pw and cy or some other tools
 - they are focusing on execution
 -->
@@ -84,14 +85,15 @@ layout: default
 ---
 layout: center
 ---
+
 # Where do test flakes come from?
 
-<!-- 
-- first of all, definition
+<!--
+- let’s define flakiness
 - a test that gives failing and passing result across multiple runs without any known changes in test code or app code
 - and some people will say, that the biggest contributor to test flakiness is the environment on which the test is ran
 - but I actually don’t agree
-- I think different environments only reveal the issues that were already there
+- I think different environments only **reveal** the issues that were already there
 - and I have an argument to back it up
 -->
 
@@ -120,11 +122,12 @@ when the environment <span v-mark="{type: 'box', color: '#41B0F6', at: 0}">is fa
 ---
 layout: center
 ---
+
 # Our testing tools are <span v-mark="{type: 'crossed-off', color: '#F02D5E', at: 1, strokeWidth: 4}">flaky</span>!
 
-<!-- 
+<!--
 - no they are not [click]
-- everybody migrating from PW -> Cypress
+- everybody migrating from PW -> Cypress - anyone?
 - I have some bad news, it’s not going to fix your tests
 - don’t get me wrong, PW is great, you should use it, but it’s not going to solve flakiness
 -->
@@ -136,10 +139,12 @@ layout: center
 ![](/images/cory.png){class="w-140"}
 
 <!--
+- because: as mentioned in this tweet
+- flaky app will result in flaky test
 - I actually believe quite strongly, that although we often talk about flaky tests, it’s actually the application that’s flaky
-- as mentioned in this tweet
-- but tools can help - actually a lot
+- but tools **can** help - actually a lot
 - one of the ways to tackle flaky apps is retryability
+- e.g cypress and playwright have this
 -->
 
 ---
@@ -175,7 +180,7 @@ What happens in <span v-mark="{type: 'strike-through', color: '#F02D5E', at: 1, 
 -->
 
 ---
-layout: two-cols
+layout: default
 ---
 # e2e flakiness
 

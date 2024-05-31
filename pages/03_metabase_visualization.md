@@ -1,13 +1,13 @@
 ---
 layout: cover
 ---
+
 Story #2:
 # Metabase - Visualization
 
 <!--
-- this one was test flake that inspired the name of this presentation
-- blink and you’ll miss it
-- in fact, I’m going to show you a screenshot from failing and passing test side by side
+- this is a fun one
+- I’m going to show you a screenshot from failing and passing test side by side
 -->
 
 ---
@@ -113,9 +113,9 @@ layout: default
 # Metabase - Visualization
 <video src="/images/shift.mov" autoplay loop class="h-[80%] m-auto" />
 
-<!-- 
+<!--
 - going back to the video comparison
-- we can see why the test did not work the way we wanted
-- the css change caused the whole layout to shift
-- so the cypress commands that relied on precise coordinates on page were selecting something different after we used bolder fonts
+- see how the blue rectangle stays in same place, but graph shifts
+- cypress commands relied on precise coordinates 
+- selected something different
 -->

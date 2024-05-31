@@ -128,14 +128,26 @@ layout: center
 ---
 
 # Recording CI:
-cypress:
+<br />
+
+<vscode-icons-file-type-cypress/> cypress:
 ```
 npx cypress run --browser replay-chromium
 ```
-playwright:
+
+<br />
+
+<vscode-icons-file-type-playwright/> playwright:
 ```
 npx playwright test --project replay-chromium
 ```
+
+also supported:
+<logos-webdriverio class="mx-2"/>
+<logos-selenium class="mx-2"/>
+<logos-puppeteer class="mx-2"/>
+<logos-jest class="mx-2"/>
+
 
 <!--
 - this was largely thanks to the fact that we were able to time-travel to that line of code
